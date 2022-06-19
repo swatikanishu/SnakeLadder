@@ -8,7 +8,7 @@ public class SnakeLadder {
             while(position != destination)
             {
                 diceRoll++;
-                int  randomCheck = (int) Math.floor(Math.random() * 10) % 6+1;
+                int  randomCheck = (int) (Math.random() * 10) % 6+1;
                 int  randomCheck2 = (int) (Math.random() * 10) % 3;
                 switch(randomCheck2) {
                     case 0:
