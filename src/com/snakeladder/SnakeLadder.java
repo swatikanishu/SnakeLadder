@@ -3,7 +3,6 @@ package com.snakeladder;
 public class SnakeLadder {
         final static int source = 0;
         final  static  int destination = 100;
-
         public static void main(String[] args) {
             int position=0, diceRoll=0;
             while(position != destination)
